@@ -9,8 +9,8 @@ export const OverallDiv = styled.div`
   /* background-color: blue; */
 
   .everybody {
-    font-size: 170px;
-    line-height: 170px;
+    font-size: 150px;
+    line-height: 140px;
     font-weight: bold;
   }
   @media (max-width: 769px) {
@@ -43,10 +43,49 @@ export const OverallDiv = styled.div`
     }
   }
 
+
+  .enjoy {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+  @media (max-width: 769px) {
+    .enjoy {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: normal;
+    }
+  }
+  @media (max-width: 411px) {
+    .enjoy {
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: normal;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .enjoy {
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: normal;
+    }
+  }
+  @media (max-width: 410px) {
+    .enjoy {
+      font-size: 17px;
+      line-height: 25px;
+      font-weight: normal;
+    }
+  }
+
+
   .inner-container {
     /* background-color: red; */
     margin-top: 40px;
     width: 90%;
+    display: flex;
+    flex-direction: column;
   }
   @media (max-width: 720px) {
     .inner-container {
@@ -62,6 +101,8 @@ export const OverallDiv = styled.div`
       background: black;
       color: rgb(159, 151, 151);
       cursor: pointer;
+      /* width: 400px; */
+      margin: 10px;
     }
   }
 `;

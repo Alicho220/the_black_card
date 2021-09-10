@@ -7,35 +7,29 @@ body {
   overflow: hidden;
   background-color: black;
 }
-h1{
-    font-weight: bold;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 70px;
-  }
-  button{
-    border: 1px solid ;
-    border-radius: 3px;
-    height:70px;
-    width:255px;
-    margin: 5px;
-    
-  
-  }
-  
+h1 {
+  font-weight: bold;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 70px;
+}
+button {
+  border: 1px solid;
+  border-radius: 3px;
+  height: 70px;
+  width: 255px;
+  margin: 5px;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-} */
-
+}
 .inner-container {
-  /* width: 90%; */
   padding: 0%;
   margin: 0%;
   display: flex;
   justify-content: center;
-  /* background-color: red; */
 }
 
 @media (max-width: 720px) {
