@@ -3,8 +3,8 @@ body {
   font-family: sans-serif;
 
   font-style: normal;
-  color: rgb(159, 151, 151);
-  overflow: hidden;
+  /* color: rgb(143, 98, 98); */
+  color: #D2D2D2;
   background-color: black;
 }
 h1 {
@@ -21,6 +21,10 @@ button {
   margin: 5px;
 }
 
+p{
+  color: #D2D2D2;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -30,6 +34,7 @@ code {
   margin: 0%;
   display: flex;
   justify-content: center;
+  min-height: 100vh;
 }
 
 @media (max-width: 720px) {

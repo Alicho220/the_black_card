@@ -6,10 +6,12 @@ export const OverallDiv = styled.div`
   align-content: center;
   align-items: center;
   min-height: 100vh;
+  overflow-x: hidden;
   /* background-color: blue; */
 
   .everybody {
-    font-size: 150px;
+    /* margin: 0; */
+    font-size: 140px;
     line-height: 140px;
     font-weight: bold;
   }
@@ -82,7 +84,8 @@ export const OverallDiv = styled.div`
 
   .inner-container {
     /* background-color: red; */
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    padding-bottom: 80px;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -103,6 +106,7 @@ export const OverallDiv = styled.div`
       cursor: pointer;
       /* width: 400px; */
       margin: 10px;
+      /* margin-top: 0; */
     }
   }
 `;

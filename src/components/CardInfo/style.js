@@ -3,12 +3,15 @@ import styled from "styled-components";
 export const CardInfoDiv = styled.div`
   display: flex;
   justify-content: center;
-  min-height: 95vh;
+  min-height: 100vh;
   text-align: start;
+  /* overflow-y: visible; */
+  overflow-x: hidden;
 
   .inner-container {
     display: flex;
     width: 95%;
+    padding-bottom: 40px;
   }
 
   .left-side {

@@ -44,8 +44,8 @@ function CardInfo() {
           {/* <div className="card"> */}
             <Iframe
               url="http://www.youtube.com/embed/xDMP3i36naA"
-              width="500px"
-              height="300px"
+              // width="60%"
+              // height="35%"
               id="myId"
               className="myClassname"
               display="initial"
