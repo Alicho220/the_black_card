@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Blackcard from "../../assets/Blackcard.png"
 function Navbar() {
   return (
-    <div className="mt-5">
+    <div className="">
       <Link to="/">
-        <h2 className="mt-3">BLACK CARD</h2>
+        <img src={Blackcard} alt=""  width="300px"/>
+        
       </Link>
     </div>
   );

@@ -41,11 +41,11 @@ function CardInfo() {
         </div>
 
         <div className="right-side col-md-6 mt-5">
-          <div className="card">
+          {/* <div className="card"> */}
             <Iframe
               url="http://www.youtube.com/embed/xDMP3i36naA"
-              width="550px"
-              height="340px"
+              width="500px"
+              height="300px"
               id="myId"
               className="myClassname"
               display="initial"
@@ -54,7 +54,7 @@ function CardInfo() {
               scrolling="no"
               frameborder="0"
             />
-          </div>
+          {/* </div> */}
 
           <button className="mt-5" onClick={() => setModalShow(true)}>
             SIGN UP NOW

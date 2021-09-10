@@ -35,8 +35,8 @@ export const CardInfoDiv = styled.div`
     align-items: center;
 
     .myClassname {
-      border-radius: 7px;
-      border: solid 2px gray;
+      border-radius: 17px;
+      border: solid 2px;
       background-color: black;
     }
     button {
@@ -44,5 +44,6 @@ export const CardInfoDiv = styled.div`
       color: rgb(159, 151, 151);
       cursor: pointer;
     }
+
   }
 `;
